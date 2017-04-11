@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './styles.css'
+import styles from './styles.css';
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
 }
 
 App.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.node,
 };
 
 export default App;

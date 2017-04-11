@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './styles.css'
+import styles from './styles.css';
 
 const MainLayout = ({ children }) => {
   return (
@@ -12,7 +12,7 @@ const MainLayout = ({ children }) => {
 };
 
 MainLayout.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.node,
 };
 
 export default MainLayout;
